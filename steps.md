@@ -142,6 +142,9 @@ services:
 ### Install GC SDK
 - Download [Google Cloud SDK](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe) and install (ensure to check that the installation is added to the PATH).
 - Test the installion using the command `gcloud version`
+- Check authorize gcloud accounts: `gcloud auth list`
+- List cloud storages `gcloud storage ls`
+
 
 ### Connect to the VM
 - ssh to the vm using command `ssh -i ~/.ssh/privatekey key_user@ip-address` 
