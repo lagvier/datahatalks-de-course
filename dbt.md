@@ -7,3 +7,4 @@
 - Create a `.dbt` folder within your home directory 
 - Create a repository where you want to start your dbt project
 - From your project folder run the command `dbt init` and follow the prompts to create the project. A `profile.yml` file will be generated in the `$pwd/.dbt` folder
+

@@ -39,7 +39,9 @@ CREATE OR REPLACE TABLE rides.table_partitioned_clustered
 Notes
 - BigQuery has a limit of 4000 partitions and a maximum of 4 columns to cluster. 
 - Types of columns to cluster: Date, Bool, Geography, Int64, Numeric,BigNumeric, String, Timestamp, Datatime.
-- Place largest table as first, the the list table and the remaining in the descending ordering after.
+- Place largest table as first, then second with the smallest and then the remaining in the descending ordering after.
+- Partition by columns used for filtering/aggregate
+- Cluster by the columns used for sorting
 
 
 ### BigQuery for ML
